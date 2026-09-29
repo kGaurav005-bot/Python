@@ -1,4 +1,7 @@
-print ("what is your first name ",end = '??' )
+print ("what is your first name ",end = '\n' )
 fname = input()
 lname = input("What is your last name ")
 print("Hello!!" +fname +" "+ lname)
+print("Hello!!" , fname , "",  lname)
+print("Hello!!" , {fname} ,  lname, flush=False)
+print("Hello!!" , fname ,  lname, flush=False)
